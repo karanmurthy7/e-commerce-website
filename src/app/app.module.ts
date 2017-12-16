@@ -50,7 +50,7 @@ import { LoginComponent } from './login/login.component';
       { path: 'login', component: LoginComponent },
       { path: 'admin/products', component: AdminProductsComponent },
       { path: 'admin/orders', component: AdminOrdersComponent },
-      { path: '**', redirectTo: '/', pathMatch: 'full' },
+      { path: '**', redirectTo: '/', pathMatch: 'full' }
     ])
   ],
   providers: [],
