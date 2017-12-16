@@ -10,6 +10,8 @@ import { environment } from '../environments/environment';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { CheckOutComponent } from './check-out/check-out.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { ProductsComponent } from './products/products.component';
     AppComponent,
     BsNavbarComponent,
     HomeComponent,
-    ProductsComponent
+    ProductsComponent,
+    ShoppingCartComponent,
+    CheckOutComponent
   ],
   imports: [
     BrowserModule,
